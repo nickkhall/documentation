@@ -50,7 +50,7 @@ UP ARROW or DOWN ARROW
 
 ## Scroll in a Window:
 ```
-[preset]
+Ctrl + B
 ```
 ```
 [
@@ -60,7 +60,7 @@ UP ARROW or DOWN ARROW
 
 ----
 
-Open Pane Editor
+## Open Pane Editor
 ```
 Ctrl + B
 ```
@@ -68,14 +68,22 @@ Ctrl + B
 w
 ```
 
-Split vertical pane
+## Split vertical pane
 ```
 Ctrl + B + "
 ```
 
-Split Vertical pane
+## Split Vertical pane
 ```
 Ctrl + B + %
+```
+
+## Resize window pain
+```
+Ctrl + B
+```
+```
+resize-pane -D 20 // Resize pane down 20 cells
 ```
 
 # VIM
@@ -85,25 +93,3 @@ Ctrl + B + %
 ```
 :NERDTreeFocus
 ```
-
-### OR
-
-
-
-
-
-
-<!-- Emulator: iTerm2
-Multiplexer: tmux
-Shell: zsh
-EDITOR: vim
-VISUAL: vim
-
-tmux
--- `tmux-sensible`: Some basic useful configs
--- `tpm`: plugin manager for tmux
-
-vim
--- pathogen: plugin manager for vim
--- NERDTree: visual directory tree
--- tagbar: IDE-style ctags -->
