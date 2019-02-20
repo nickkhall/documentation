@@ -31,3 +31,11 @@ Type `a` to add a child node and add a `/` AFTER the filename to create a direct
 - :only            - keep only this window open
 - :ls              - show current buffers
 - :b 2             - open buffer #2 in this window
+
+## Switching between panes
+```
+Ctrl +_W
+```
+```
+RIGHT or LEFT arrow keys to go right or left
+```
