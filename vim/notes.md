@@ -5,6 +5,18 @@
 :NERDTreeFocus
 ```
 
+## Creating a File or a Directory / Folder
+```
+:NERDTreeFocus
+```
+Then when in the tree view, type `m`
+
+### File
+Type `a` to add a child node
+
+### Directory
+Type `a` to add a child node and add a `/` before the filename to create a directory
+
 ## Multiple Windows
 - :e filename      - edit another file
 - :split filename  - split window and load another file
