@@ -60,6 +60,24 @@ UP ARROW or DOWN ARROW
 
 ----
 
+Open Pane Editor
+```
+Ctrl + B
+```
+```
+w
+```
+
+Split vertical pane
+```
+Ctrl + B + "
+```
+
+Split Vertical pane
+```
+Ctrl + B + %
+```
+
 # VIM
 
 ## Open Directory tree
