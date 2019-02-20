@@ -15,7 +15,7 @@ Then when in the tree view, type `m`
 Type `a` to add a child node
 
 ### Directory
-Type `a` to add a child node and add a `/` before the filename to create a directory
+Type `a` to add a child node and add a `/` AFTER the filename to create a directory
 
 ## Multiple Windows
 - :e filename      - edit another file
