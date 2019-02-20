@@ -78,9 +78,12 @@ Ctrl + B + "
 Ctrl + B + %
 ```
 
-## Resize window pain
+## Resize window pane
 ```
 Ctrl + B
+```
+```
+:
 ```
 ```
 resize-pane -D 20 // Resize pane down 20 cells
