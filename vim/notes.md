@@ -39,3 +39,15 @@ Ctrl +_W
 ```
 RIGHT or LEFT arrow keys to go right or left
 ```
+
+## Resize split panes
+In the current pane you want to resize:
+```
+Ctrl + W
+```
+```
+> // Resize to the right (Hold Shift with > to use literal character of '>')
+< // Resize to the left (Hold Shift with > to use literal character of '<')
++ // Resize up (Hold Shift with > to use literal character of '+')
+- // Resize down (Hold Shift with > to use literal character of '-')
+```
