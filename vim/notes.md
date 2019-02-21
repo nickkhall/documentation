@@ -34,8 +34,9 @@ Type `a` to add a child node and add a `/` AFTER the filename to create a direct
 
 ## Switching between panes
 ```
-Ctrl +_W
+Ctrl +W
 ```
+then after that, type:
 ```
 RIGHT or LEFT arrow keys to go right or left
 ```
@@ -45,6 +46,7 @@ In the current pane you want to resize:
 ```
 Ctrl + W
 ```
+then after that, type:
 ```
 > // Resize to the right (Hold Shift with > to use literal character of '>')
 < // Resize to the left (Hold Shift with > to use literal character of '<')
