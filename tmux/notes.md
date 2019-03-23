@@ -88,11 +88,3 @@ Ctrl + B
 ```
 resize-pane -D 20 // Resize pane down 20 cells
 ```
-
-# VIM
-
-## Open Directory tree
-### Press `:`, then run:
-```
-:NERDTreeFocus
-```
