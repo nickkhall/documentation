@@ -6,14 +6,19 @@ sudo -u postgres psql
 ```
 ----
 
-## Creating a Database
-```
-createdb databaseName;
-```
-
 ## Connecting to Database
 ```
 \c databaseName;
+```
+
+## List database tables
+```
+\dt;
+```
+
+## Creating a Database
+```
+createdb databaseName;
 ```
 
 ## Creating a Table
@@ -40,6 +45,11 @@ Options for Values when creating a table
   - DEFAULT (default data)
 
 ----
+
+### Example:
+```
+CREATE TABLE myTable(id varchar(60) PRIMARY KEY, name varchar(100) NOT NULL, joined bigint, bio varchar(250));
+```
 
 ## Common Commands
 ### Quit
