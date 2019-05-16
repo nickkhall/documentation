@@ -51,6 +51,11 @@ Options for Values when creating a table
 CREATE TABLE myTable(id varchar(60) PRIMARY KEY, name varchar(100) NOT NULL, joined bigint, bio varchar(250));
 ```
 
+## Deleting Table
+```
+DROP TABLE myTable;
+```
+
 ## Common Commands
 ### Quit
 ```
