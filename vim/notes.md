@@ -60,3 +60,33 @@ then after that, type:
 - Press d (delete) to cut, or y (yank) to copy.
 - Move the cursor to the desired paste location.
 - Press p to paste after the cursor, or P to paste before.
+
+----
+## Navigating
+* `h` move left.
+* `j` move down.
+* `k` move up.
+* `l` move right.
+
+----
+## Text Editing
+* `x` to delete character.
+* `i` to insert.
+* `A` to append text:
+  * Will move cursor to end of line for insertion.
+* ### Deleting
+Many commands that change text are made from an operator and a motion.
+  The format for a delete command with the  d  delete operator is as follows:
+        ```
+          d   motion
+        ```
+
+  Where:
+    ```d      - is the delete operator.
+    motion - is what the operator will operate on (listed below).
+    ```
+  * `dw` to delete word. Deletes until start of next word.
+    * Start at beginning character of word.
+  * `d$` to delete to end of line.
+    * Starts from current character.
+  * `de` to delete until end of current word.
