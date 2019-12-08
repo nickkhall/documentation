@@ -11,6 +11,11 @@ sudo -u postgres psql
 \c databaseName;
 ```
 
+## Listing contents of table
+```
+\d databaseName;
+```
+
 ## List database tables
 ```
 \dt;
