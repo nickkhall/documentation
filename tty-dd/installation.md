@@ -44,3 +44,10 @@
 
 ##### - set up font
 #####   - get .fonts from tty-dd and add to ~/
+
+##### - install browser
+#####   - install chromium first : `sudo apt install chromium-browser`
+#####   - after installing chrome, use chrome to install firefox dev
+#####   - tar -xvjf .tar.b2z
+#####   - move firefox/firefox executable to /usr/bin (PATH)
+#####   - when running firefox, run as daemon `firefox&`
