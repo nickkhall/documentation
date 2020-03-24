@@ -51,3 +51,10 @@
 #####   - tar -xvjf .tar.b2z
 #####   - move firefox/firefox executable to /usr/bin (PATH)
 #####   - when running firefox, run as daemon `firefox&`
+
+6. ### Extras
+
+#### Sound
+----
+##### ALSA
+#####  - `sudo apt install alsa alsa-tools`
