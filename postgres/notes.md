@@ -1,14 +1,29 @@
 # PostGreSQL
 ----
-## Using postgres with current user
+## Using postgres with `postgres` user
 ```
 sudo -u postgres psql
 ```
 ----
 
+## Listing Databases
+```
+\l
+```
+--- *or* ---
+```
+\list
+```
+
 ## Connecting to Database
 ```
 \c databaseName;
+```
+
+## Creating a Database
+*note*: **MUST** have a semi-colon at the end.
+```
+create database myDbNameHere;
 ```
 
 ## Listing contents of table
@@ -19,11 +34,6 @@ sudo -u postgres psql
 ## List database tables
 ```
 \dt;
-```
-
-## Creating a Database
-```
-createdb databaseName;
 ```
 
 ## Creating a Table
