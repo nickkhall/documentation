@@ -36,6 +36,11 @@ create database myDbNameHere;
 \dt;
 ```
 
+## View Table Data
+```
+table tableName;
+```
+
 ## Creating a Table
 ```
 CREATE TABLE (name_of_column type, name_of_column, type);
