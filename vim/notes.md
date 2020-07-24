@@ -90,3 +90,13 @@ Many commands that change text are made from an operator and a motion.
   * `d$` to delete to end of line.
     * Starts from current character.
   * `de` to delete until end of current word.
+
+----
+
+## Fuzzy File Finding
+Currently using `fzf`.
+
+Current keymap for fuzzy search in current directory:
+```
+Ctrl + w
+```
