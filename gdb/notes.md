@@ -27,17 +27,20 @@ step
 ```
 
 ## Advanced Debugger (gdbserver)
-* Start `gdbserver` with host:port and debug executable:
+* Compile the application for debugging:
 ```bash
-gdbserver localhost:12345 ./debug/debug
+$ make debug
 ```
 
-* In a separate terminal window, compile application for gdb debugging
+* In a separate terminal window, start `gdbserver` with host:port and debug executable:
 ```bash
-make debug
+$ gdbserver localhost:12345 ./debug/debug
 ```
 
-*  Then run `make gdb_debug` in the newly created terminal.
+*  Then navigate back to your original terminal window and run:
+```bash
+$ make gdb_debug
+```
 
 The gdb server and debug executable should be connected now, and you can now proceed to debug.
 
