@@ -41,6 +41,22 @@ make debug
 
 The gdb server and debug executable should be connected now, and you can now proceed to debug.
 
+After the gdb server is running, you may now execute a gdb command or script `debug_conf.gdb` to connect to the server.
+```
+target remote localhost:12347
+```
+> **NOTE**: You can omit the `host` portion if you are running the server on the same machine [localhost].
+```bash
+target remote :12347
+```
+
+Example if not using Makefile command:
+```bash
+make debug && gdb -x ~/path/to/debug.conf
+```
+
+> Makefile command: `make debug && make gdb_debug`
+
 ----
 
 ### Notes
