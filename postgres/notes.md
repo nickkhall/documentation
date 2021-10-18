@@ -43,7 +43,7 @@ table tableName;
 
 ## Creating a Table
 ```
-CREATE TABLE (name_of_column type, name_of_column, type);
+CREATE TABLE table_name_here (name_of_column type, name_of_column, type);
 ```
 
 ###
